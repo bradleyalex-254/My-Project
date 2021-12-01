@@ -1,0 +1,65 @@
+body{background-color:darkgrey;}
+a{text-decoration: none;
+    background-color: white;
+    border:1px green solid;
+    padding: 2;
+    margin-bottom: 10;
+}
+a:hover{color: red;}
+a:visited{color: rgb(40, 10, 110)}
+
+#header{background-color: lightgrey;
+        border: 1px solid blue;
+        padding: 2px;
+}
+
+#content{background-color: lightgrey;
+        border: 1px solid brown;
+        margin: 7 8;
+        padding: 20;
+
+}
+
+#footer{background-color: rgb(14, 99, 99);
+        border: 1px solid black;
+        margin: 1 2;
+}
+
+.nested{background-color: white;
+        border: 1px solid red;
+        border-radius: 10px;
+        margin: 2px;
+        padding: 2px;
+}
+
+.fun{color: blue
+
+}
+
+/* #list{display: inline;} */
+#display{display: inline-block;
+
+}
+
+#js{
+        background-color: white;
+        margin: 2;
+        padding: 2;
+        border: 1px solid black;
+
+}
+
+.video{
+        background-color: white;
+        margin: 2;
+        padding: auto;
+        border: 1px solid #000000
+
+}
+
+.form{background-color: white;
+        border-radius: 5px;
+        border: 1px solid blue;
+        margin-top: 2; margin-bottom: 2;
+
+}

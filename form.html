@@ -1,0 +1,51 @@
+<html>
+
+    <head>
+
+        <title>Form</title>
+
+    </head>
+    
+    <body>
+
+        <h3><u>Form</u></h3>
+        <a href="index.html">Index Page</a>
+
+
+            <div class="form_div">
+            <form method="" action="">
+
+                <label>Name:</label>
+                <input type="text" name="name" size="20" maxlength="30" placeholder="your name..."/><br><br>
+                <label>Email:</label>
+                <input type="email" maxlength="120" placeholder="your email..." required/> <br><br>
+                <label>Comment:</label>
+                <textarea maxlength="200" placeholder="type your comment here" required></textarea><br><br>
+    
+                <input type="radio" name="agree" >Yes
+                <input type="radio" name="agree" >No
+                <input type="radio" name="agree" >Not sure
+                <br><br>
+    
+                <input type="checkbox" name="Home">Home<br>
+                <input type="checkbox" name="School">School<br>
+    
+                <select name="performance">
+                    <option>Excellent</option>
+                    <option>Very Good</option>
+                    <option>Good</option>
+                    <option>Poor</option>
+    
+                </select><br><br>
+
+            <button onclick="myFunction()">Submit</button>
+                <script>
+                    function myFunction(){
+                        alert("Submit your Details?")
+                    }
+                    </script>
+           <input type="reset" value="Reset"><br><br>
+        </div>
+        </form>
+    </body>
+</html>
